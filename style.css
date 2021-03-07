@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle, #97bedb, #6a8fb6, #446291, #26376b, #0c0f44);
+    font-family: sans-serif;
+    color: white;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#mapid { 
+    position: absolute;
+    top: 15%;
+    height: 800px; 
+    width: 1000px;
+    background-color: rgba(12,15,68, 0.5);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #mapid {
+        height: 600px;
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #mapid {
+        height: 600px;
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #mapid {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #mapid {
+        height: 600px;
+        width: 300px;
+    }
+}

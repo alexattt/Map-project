@@ -49,7 +49,3 @@ var options =  {
 }
 L.control.ruler(options).addTo(map);
 
-
-//info par tileLayer https://leafletjs.com/reference-1.7.1.html#tilelayer
-//visticamak no sejienes ir tileLayeri http://new.kurtuesi.lv:8080/geoserver/gwc/service/wmts?REQUEST=getcapabilities
-//šo izmantoju laikapstākļiem https://github.com/buche/leaflet-openweathermap

@@ -33,6 +33,11 @@ h1 {
     border-radius: 10px;
 }
 
+p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1000px) {
     #mapid {
         height: 600px;
@@ -58,5 +63,6 @@ h1 {
     #mapid {
         height: 600px;
         width: 300px;
+        margin-top: 80px;
     }
 }

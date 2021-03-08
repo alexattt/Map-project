@@ -2,7 +2,7 @@
 //lai implementēt karti tiek izmanota JavaScript bibliotēka Leaflet
 
 // tiek izmantots Web Map Service serveris GeoServer ar tajā esošajiem map tiles
-var karte = L.tileLayer.wms('http' + '://new.kurtuesi.lv:8080/geoserver/gwc/service/wms?', 
+var karte = L.tileLayer.wms('http://new.kurtuesi.lv:8080/geoserver/gwc/service/wms?', 
     {
         layers: 'map:background',
         format: 'image/png',

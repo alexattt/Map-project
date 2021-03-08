@@ -38,28 +38,28 @@ p {
     text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     #mapid {
         height: 600px;
         width: 800px;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #mapid {
         height: 600px;
         width: 600px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     #mapid {
         height: 400px;
         width: 400px;
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
     #mapid {
         height: 600px;
         width: 300px;
